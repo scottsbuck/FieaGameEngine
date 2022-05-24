@@ -1,1 +1,23 @@
-﻿  Library.Desktop.vcxproj -> C:\Dev\Students\CH18\Scott.Buck\Prog2\FieaEngineTime\build\bin\Library.Desktop\x64\Debug\Library.Desktop.lib
+﻿  pch.cpp
+  Action.cpp
+  ActionCreateAction.cpp
+  ActionDestroyAction.cpp
+  ActionIncrement.cpp
+  ActionList.cpp
+  ActionListIf.cpp
+  Attributed.cpp
+  Datum.cpp
+  EventPublisher.cpp
+  EventQueue.cpp
+  GameClock.cpp
+  GameObject.cpp
+  GameState.cpp
+  GameTime.cpp
+  IJsonParseHelper.cpp
+  JsonParseCoordinator.cpp
+  JsonTableParseHelper.cpp
+  Scope.cpp
+  Transform.cpp
+  TypeRegistry.cpp
+  Generating Code...
+  Library.Desktop.vcxproj -> C:\Dev\Students\CH18\Scott.Buck\Prog2\FieaGameEngine\FieaEngineTime\build\bin\Library.Desktop\x64\Debug\Library.Desktop.lib
