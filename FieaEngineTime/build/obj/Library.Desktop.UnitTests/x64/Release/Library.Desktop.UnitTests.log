@@ -1,0 +1,11 @@
+﻿  pch.cpp
+  Foo.cpp
+  HashMapTests.cpp
+  SListTests.cpp
+  VectorTests.cpp
+     Creating library C:\Dev\Students\CH18\Scott.Buck\Prog2\FieaEngineTime\build\bin\Library.Desktop.UnitTests\x64\Release\Library.Desktop.UnitTests.lib and object C:\Dev\Students\CH18\Scott.Buck\Prog2\FieaEngineTime\build\bin\Library.Desktop.UnitTests\x64\Release\Library.Desktop.UnitTests.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 833 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Library.Desktop.UnitTests.vcxproj -> C:\Dev\Students\CH18\Scott.Buck\Prog2\FieaEngineTime\build\bin\Library.Desktop.UnitTests\x64\Release\Library.Desktop.UnitTests.dll

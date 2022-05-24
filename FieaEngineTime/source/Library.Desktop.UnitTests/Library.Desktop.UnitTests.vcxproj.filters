@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="SListTests.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Foo.cpp" />
+    <ClCompile Include="VectorTests.cpp" />
+    <ClCompile Include="HashMapTests.cpp" />
+    <ClCompile Include="DatumTests.cpp" />
+    <ClCompile Include="ScopeTests.cpp" />
+    <ClCompile Include="AttributedTests.cpp" />
+    <ClCompile Include="..\Library.Shared\AttributedFoo.cpp" />
+    <ClCompile Include="AttributedBar.cpp" />
+    <ClCompile Include="JsonIntegerParseHelper.cpp" />
+    <ClCompile Include="JsonTestParseHelper.cpp" />
+    <ClCompile Include="JsonParseCoordinatorTests.cpp" />
+    <ClCompile Include="FactoryTests.cpp" />
+    <ClCompile Include="Avatar.cpp" />
+    <ClCompile Include="ActionTests.cpp" />
+    <ClCompile Include="EventSubscribers.cpp" />
+    <ClCompile Include="EventTests.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Foo.h" />
+    <ClInclude Include="ToStringSpecializationsSList.h" />
+    <ClInclude Include="ToStringSpecializationsVector.h" />
+    <ClInclude Include="ToStringSpecializationsHashMap.h" />
+    <ClInclude Include="ToStringSpecializationsDatum.h" />
+    <ClInclude Include="ToStringSpecializationsScope.h" />
+    <ClInclude Include="ToStringSpecializationsAttributed.h" />
+    <ClInclude Include="..\Library.Shared\AttributedFoo.h" />
+    <ClInclude Include="AttributedBar.h" />
+    <ClInclude Include="JsonIntegerParseHelper.h" />
+    <ClInclude Include="JsonTestParseHelper.h" />
+    <ClInclude Include="ToStringSpecializationsJson.h" />
+    <ClInclude Include="ToStringSpecializationsFactory.h" />
+    <ClInclude Include="Avatar.h" />
+    <ClInclude Include="ToStringSpecializationsAction.h" />
+    <ClInclude Include="EventSubscribers.h" />
+    <ClInclude Include="ToStringSpecializationsEvent.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="TestScope.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TestJsonParser.json" />
+  </ItemGroup>
+</Project>

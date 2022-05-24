@@ -1,0 +1,278 @@
+{
+  "ActionTimeGamer": {
+    "class": "Avatar",
+    "type": "table",
+    "value": {
+      "Name": {
+        "type": "string",
+        "value": "ActionAvaterPoggyWoggy"
+      },
+      "MovementSpeed": {
+        "type": "float",
+        "value": 2.5
+      },
+      "Actions": {
+        "type": "table",
+        "value": [
+          {
+            "class": "ActionListIf",
+            "type": "table",
+            "value": {
+              "Condition": {
+                "type": "integer",
+                "value": 1
+              },
+              "True": {
+                "type": "table",
+                "value": [
+                  {
+                    "class": "ActionIncrement",
+                    "type": "table",
+                    "value": {
+                      "Name": {
+                        "type": "string",
+                        "value": "Increment MovementSpeed"
+                      },
+                      "Target": {
+                        "type": "string",
+                        "value": "MovementSpeed"
+                      },
+                      "Step": {
+                        "type": "float",
+                        "value": 2.5
+                      }
+                    }
+                  },
+                  {
+                    "class": "ActionIncrement",
+                    "type": "table",
+                    "value": {
+                      "Name": {
+                        "type": "string",
+                        "value": "Increment Condition"
+                      },
+                      "Target": {
+                        "type": "string",
+                        "value": "Condition"
+                      },
+                      "Step": {
+                        "type": "float",
+                        "value": -1
+                      }
+                    }
+                  }
+                ]
+              },
+              "False": {
+                "type": "table",
+                "value": [
+                  {
+                    "class": "ActionIncrement",
+                    "type": "table",
+                    "value": {
+                      "Name": {
+                        "type": "string",
+                        "value": "Increment MovementSpeed"
+                      },
+                      "Target": {
+                        "type": "string",
+                        "value": "MovementSpeed"
+                      },
+                      "Step": {
+                        "type": "float",
+                        "value": 1.5
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "ActionListGaming": {
+    "class": "ActionList",
+    "type": "table",
+    "value": {
+      "Name": {
+        "type": "string",
+        "value": "gamerAction"
+      },
+      "Actions": {
+        "type": "table",
+        "value": [
+          {
+            "class": "ActionCreateAction",
+            "type": "table",
+            "value": {
+              "ActionClassName": {
+                "type": "string",
+                "value": "ActionIncrement"
+              },
+              "ActionInstanceName": {
+                "type": "string",
+                "value": "Actions"
+              },
+              "Name": {
+                "type": "string",
+                "value": "Creating"
+              }
+            }
+          },
+          {
+            "class": "ActionDestroyAction",
+            "type": "table",
+            "value": {
+              "ActionToDelete": {
+                "type": "string",
+                "value": "Creating"
+              },
+              "Name": {
+                "type": "string",
+                "value": "DestroyThePepegas"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "AAAAvatar": {
+    "class": "Avatar",
+    "type": "table",
+    "value": {
+      "Name": {
+        "type": "string",
+        "value": "pepegaBrain"
+      },
+      "Children": {
+        "type": "table",
+        "value": [
+          {
+            "class": "Avatar",
+            "type": "table",
+            "value": {
+              "Name": {
+                "type": "string",
+                "value": "Gamers2"
+              }
+            }
+          },
+          {
+            "class": "Avatar",
+            "type": "table",
+            "value": {
+              "Name": {
+                "type": "string",
+                "value": "Derp Horse"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "AAAGameObject": {
+    "class": "GameObject",
+    "type": "table",
+    "value": {
+      "Name": {
+        "type": "string",
+        "value": "kekw"
+      }
+    }
+  },
+  "AAtributedTest": {
+    "class": "AttributedFoo",
+    "type": "table",
+    "value": {
+      "GamersRiseUp": {
+        "type": "string",
+        "value": "Please god work"
+      }
+    }
+  },
+  "Name": {
+    "type": "string",
+    "value": "Test Name"
+  },
+  "Health": {
+    "type": "integer",
+    "value": 100
+  },
+  "Direction": {
+    "type": "vector",
+    "value": "vec4(1, 0, 0, 1)"
+  },
+  "Transform": {
+    "type": "matrix",
+    "value": "mat4x4((1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0, 0, 0, 1))"
+  },
+  "Aliases": {
+    "type": "string",
+    "value": [ "Bob", "Jim", "Fred" ]
+  },
+  "Address": {
+    "type": "table",
+    "value": {
+      "Street": {
+        "type": "string",
+        "value": "123 Anystreet St."
+      },
+      "City": {
+        "type": "string",
+        "value": "Orlando"
+      },
+      "Postal Code": {
+        "type": "table",
+        "value": {
+          "Zip Code": {
+            "type": "integer",
+            "value": 12345
+          },
+          "Zip Code+4": {
+            "type": "integer",
+            "value": 6789
+          }
+        }
+      }
+    }
+  },
+  "EmptyNestedScopeArray": {
+    "type": "table",
+    "value": []
+  },
+  "Powers": {
+    "type": "table",
+    "value": [
+      {
+        "type": "table",
+        "value": {
+          "Name": {
+            "type": "string",
+            "value": "Laser Vision"
+          },
+          "Dps": {
+            "type": "float",
+            "value": 1.5
+          }
+        }
+      },
+      {
+        "type": "table",
+        "value": {
+          "Name": {
+            "type": "string",
+            "value": "Big daddy strength"
+          },
+          "Dps": {
+            "type": "float",
+            "value": 420.69
+          }
+        }
+      }
+    ]
+  }
+}

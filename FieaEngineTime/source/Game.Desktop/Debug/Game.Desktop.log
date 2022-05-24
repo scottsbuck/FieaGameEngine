@@ -1,0 +1,2 @@
+﻿  pch.cpp
+C:\Dev\Students\CH18\Scott.Buck\Prog2\FieaEngineTime\source\Game.Desktop\pch.cpp(2,1): error C2857: '#include' statement specified with the /Ycstdafx.h command-line option was not found in the source file

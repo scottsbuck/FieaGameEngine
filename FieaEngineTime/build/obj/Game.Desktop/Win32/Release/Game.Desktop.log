@@ -1,0 +1,7 @@
+﻿  pch.cpp
+  Program.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 1 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Game.Desktop.vcxproj -> C:\Dev\Students\CH18\Scott.Buck\Prog2\FieaEngineTime\build\bin\Game.Desktop\Win32\Release\Game.Desktop.exe
